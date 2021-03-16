@@ -84,7 +84,7 @@ async def on_message(message):
         await message.channel.send(credits)
 
 
-client.run('ODE3MDc1MDc0MjQxNjU4OTIw.YEEOdg.UHbp49Xd8maDRr3MHY_GZ6wjC2k')
+client.run('token')
 
 #brew install opus
 #pip install youtube-dl
