@@ -6,12 +6,6 @@ import os
 
 client = commands.Bot(command_prefix="!")
 
-#now = datetime.now() (will be used soon)
-#current_time = now.strftime("%H")
-p#rint("Current time: ", current_time)
-
-
-
 @client.command()
 async def play(ctx, url : str):
     song_there = os.path.isfile("song.mp3")
